@@ -1,0 +1,185 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@1,300&display=swap'); 
+
+  /* font-family: 'Chivo', sans-serif; */
+body{
+        display: flex;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Chivo', sans-serif;
+      background:  #121725;
+  }
+
+  .main{
+
+    margin-top: 150px;
+    margin-left: -200px;
+    padding: 110px 0 0 100px;
+    background-image: url(images/image-host.jpg);
+    background-repeat: no-repeat ;
+    background-position-x: right;
+    width: 1500px;
+    
+  }
+
+  .logo{
+    padding: 70px 0 0 100px;
+
+  }
+
+  .black{
+    display: flex;
+    flex-direction: column;
+    background: #121725;
+    margin-right: 550px;
+    height: 550px;
+    
+  }
+  
+
+  h1{
+      font-size: 52px;
+      line-height: 62px;
+      text-transform: uppercase;
+      color:#54E6AF ;
+      
+  }
+
+  span{
+      color: white;
+  }
+  p{
+      color: #C2CBE5;
+      font-size: 18px;
+      line-height: 28px;
+  }
+
+  .dots{
+      
+      text-align: right;
+      position: relative;
+      bottom: 100px;
+  }
+.footer_photos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    width: 600px;
+   
+
+}
+
+form{
+display: flex;
+background-color: #2C344B;
+border-color: transparent;
+border-radius: 30px;
+height: 40px;
+width: 310px;
+
+}
+
+#email{
+    background-color: transparent;
+    border-color: transparent;
+    padding-left: 9px;
+   
+}
+
+#button{
+    border-color: transparent;
+border-radius: 30px;
+background-color: #54E6AF;
+margin: 3px 0;
+}
+
+
+#button:hover{
+    cursor: pointer;
+    background-color:#B3FFE2; 
+}
+
+input{
+    font-weight: 700;
+   
+}
+
+.error{
+
+  visibility: hidden;
+  color: red;
+}
+
+
+@media (max-width: 670px) {
+  body {
+    display: flex;
+      background-image: linear-gradient( to bottom, rgba(18,23,37 , 0.93), rgba(18,23,38, 0.93)), url(images/image-host.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      background-attachment: fixed;
+      margin: 0;
+      text-align: center;
+     
+  }
+
+  .main{
+    display: flex;
+    text-align: center;
+    background: transparent;
+    position: relative;
+    left: 98px;
+
+    
+   
+  }
+
+  .black{
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    text-align: center;
+    position: relative;
+    right: 50px;
+    
+  }
+  .logo {
+    
+    position: relative;
+    left: 298px;
+}
+
+.footer_photos{
+
+  position:relative;
+  bottom: 100px;
+}
+#form{
+  display: grid;
+  position: relative;
+  top: 100px;
+}
+
+#email {
+
+  height: 35px;
+  width: 600px;
+  background-color: #2C344B;
+  border-radius: 30px ;
+  
+}
+#button{
+  height: 35px;
+  width: 600px;
+}
+.error{
+
+  position: relative;
+  top: 40px;
+}
+
+}
+
